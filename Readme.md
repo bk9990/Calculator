@@ -9,9 +9,8 @@ A simple calculator application built with TypeScript. This project demonstrates
 - Keyboard support
 - Responsive design
 
-## Demo
 
-![Calculator Screenshot](screenshot.png)
+
 
 ## Getting Started
 
