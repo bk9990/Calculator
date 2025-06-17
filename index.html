@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeScript Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <div class="calculator">
+      <div class="display-container">
+        <div id="history" class="history"></div>
+        <div id="display" class="display">0</div>
+      </div>
+      <div class="buttons">
+        <button id="clear" class="button function span-2">AC</button>
+        <button id="delete" class="button function">DEL</button>
+        <button class="button operation">/</button>
+        
+        <button class="button number">7</button>
+        <button class="button number">8</button>
+        <button class="button number">9</button>
+        <button class="button operation">*</button>
+        
+        <button class="button number">4</button>
+        <button class="button number">5</button>
+        <button class="button number">6</button>
+        <button class="button operation">-</button>
+        
+        <button class="button number">1</button>
+        <button class="button number">2</button>
+        <button class="button number">3</button>
+        <button class="button operation">+</button>
+        
+        <button class="button number span-2">0</button>
+        <button id="decimal" class="button">.</button>
+        <button id="equals" class="button equals">=</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="dist/calculator.js"></script>
+</body>
+</html>
